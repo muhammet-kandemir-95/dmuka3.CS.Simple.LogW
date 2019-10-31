@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dmuka3.CS.Simple.LogW</name>
+    </assembly>
+    <members>
+        <member name="T:dmuka3.CS.Simple.LogW.LogWriter">
+            <summary>
+            You can get some logs about your current project using this class.
+            </summary>
+        </member>
+        <member name="F:dmuka3.CS.Simple.LogW.LogWriter.lockObj">
+            <summary>
+            Only for locking.
+            </summary>
+        </member>
+        <member name="T:dmuka3.CS.Simple.LogW.LogWriter.LogType">
+            <summary>
+            Log types.
+            </summary>
+        </member>
+        <member name="F:dmuka3.CS.Simple.LogW.LogWriter.__firstOfFileData">
+            <summary>
+            First of file data.
+            </summary>
+        </member>
+        <member name="M:dmuka3.CS.Simple.LogW.LogWriter.AddLine(dmuka3.CS.Simple.LogW.LogWriter.LogType,System.String,System.String,System.Object,System.String)">
+            <summary>
+            Add a line to log file.
+            </summary>
+            <param name="type">Log's type.</param>
+            <param name="title">Log's title.</param>
+            <param name="description">Log's description.</param>
+            <param name="processData">Log's process data. This will be saved as json.</param>
+            <param name="directory">File path of log.</param>
+        </member>
+        <member name="M:dmuka3.CS.Simple.LogW.LogWriter.stringToCSVCell(System.String)">
+            <summary>
+            Clear uncessary character from the text by CSV format.
+            </summary>
+            <param name="text">Cell's data.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
