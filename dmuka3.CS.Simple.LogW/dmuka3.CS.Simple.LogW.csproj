@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\k8a1n\mpf\projects\github\dmuka3.CS.Simple.LogW\dmuka3.CS.Simple.LogW\dmuka3.CS.Simple.LogW.xml</DocumentationFile>
+    <DocumentationFile>..\dmuka3.CS.Simple.LogW\dmuka3.CS.Simple.LogW.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\k8a1n\mpf\projects\github\dmuka3.CS.Simple.LogW\dmuka3.CS.Simple.LogW\dmuka3.CS.Simple.LogW.xml</DocumentationFile>
+    <DocumentationFile>..\dmuka3.CS.Simple.LogW\dmuka3.CS.Simple.LogW.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
